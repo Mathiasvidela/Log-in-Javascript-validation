@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(241, 241, 241);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form{
+    margin: 2rem;
+    background-color: rgb(255, 255, 255);
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    width:40%;
+}
+
+label{
+    display: block;
+    margin-bottom: .5rem;
+    color: rgb(123, 123, 123);
+}
+
+input{
+    width: 100%;
+    padding: 1rem;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    background-color: rgb(243, 243, 243);
+    border: none;
+    margin-bottom: 1.5rem;
+}
+
+input[type="submit"]{
+    background-color: rgb(142, 80, 200);
+    color: white;
+    font-size:1rem;
+    cursor: pointer;
+    transition: .5s ease;
+}
+input[type="submit"]:hover{
+    background-color: rgb(115, 59, 167);
+    transform: scale(1.02);
+}
+
+.errorMessage{
+    color: red;
+    font-size: 10px;
+    margin-top: -20px;
+    margin-bottom: 1.4rem;
+    display: none;
+}
+#show-hide{
+    position: relative;
+    top: -20px;
+    float: right;
+    color: rgb(122, 122, 122);
+    font-size: 1rem;
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+    transition: all .5s ease;
+}
+#show-hide:hover{
+    border-bottom: solid rgb(122, 122, 122) 1px;
+    color: rgb(76, 76, 76);
+}
